@@ -63,4 +63,52 @@ body {
   margin: 0 auto;
   text-align: center;
   padding: 80px 97px;
+  /* background-color: rgba(92, 92, 160, 100),rgba(255, 187, 131, 100),rgba(119, 30, 36, 100); */
+  background-color: rgba(92, 92, 160, 100),rgba(255, 187, 131, 100),rgba(119, 30, 36, 100);
+}
+.web-dev-heading h1{
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+.web-dev-heading p {
+  width: 1000px;
+  margin: 0 auto;
+}
+.dev-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.web-dev-group-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+.left {
+  width: 50%;
+  padding-right: 50px;
+  text-align: start;
+}
+.g-1-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.web-dev-group-2 img {
+  margin: 50px 80px;
+
+}
+.g-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.web-dev-group-2 {
+  display: flex;
+  
+}
+.right {
+  width: 477px;
+  height: 219px;
+  text-align: start;
+  margin-top: 50px;
 }
