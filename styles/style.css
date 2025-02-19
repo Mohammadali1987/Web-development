@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Azeret Mono", serif;
+  }
+body {
+  width: 1140;
+  margin: 0 auto;
+}
+
+/* navbar styles  */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+.nav-btn {
+  padding: 20px 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+/* hero container styles   */
+
+.hero {
+  background-image: url(../assets/Hero-bg.png);
+}
+.hero-container {
+  width: 1140px;
+  margin: 0px auto;
+  text-align: center;
+  height: 652px;
+  
+}
+.hero-content-title {
+  font-size: 48px;
+}
+.hero-btn {
+  margin-top: 20px;
+  
+}
+.hero-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  
+}
+.hero-btn button {
+  background-color: #fff;
+  padding: 20PX;
+  background-color:black;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+/* Development styles  */
+
+.web-dev-container {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 97px;
+}
